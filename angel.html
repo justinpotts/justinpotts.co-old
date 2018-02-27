@@ -1,0 +1,83 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+  <style>
+    html {
+      background-image: url("angel.gif") no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      position: relative;
+      min-height: 100%;
+    }
+    .btn {
+      background-color: white;
+      border-color:none;
+      font-size: 14px;
+      padding-top:10px;
+      padding-bottom: 10px;
+      border-color: lightgrey;
+    }
+    html {
+      position: relative;
+      min-height: 100%;
+    }
+    body {
+      margin-bottom: 60px; /* Margin bottom by footer height */
+      font-family: 'Lato', sans-serif;
+    }
+    .footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      line-height: 60px; /* Vertically center the text there */
+      background-color: #ffffff;
+      padding-top:25px;
+      padding-bottom:25px;
+    }
+    .header {
+      font-size: 24px;
+      color: black;
+      font-weight:900;
+      margin-bottom:.5rem;
+    }
+    .subtext {
+      font-weight:300;
+      font-size: 18px;
+      color: #838383;
+      line-height:1.75;
+    }
+  </style>
+  <title>The Angel Network</title>
+</head>
+<body>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <p class="header">The Angel Network</p>
+          <p class="subtext">Join a community of aspiring and active Angel investors. Learn from each other, share your story, change the world.</p>
+        </div>
+        <div class="col-md-5"></div>
+        <div class="col-md-2" style="text-align:left">
+          <button class="btn my-2 my-sm-0" onclick="window.location.href='https://justinpotts.typeform.com/to/miJnSj'"><img src="slack-icon.png" height=20px style="margin-bottom:2px;margin-right:2px"> Join us on <strong>Slack</strong></button>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script>
+    // var sources = ["https://media.giphy.com/media/3o7buhfGO0G42UCiUo/giphy.gif", "https://media.giphy.com/media/DVVIESNvkCghO/giphy.gif", "https://media.giphy.com/media/26DNdV3b6dqn1jzR6/giphy.gif"]
+    // Chrome rendering issues solved by bg image set through JS
+    $('body').css('background', 'url("angel.gif") no-repeat center center fixed')
+    $('body').css('-webkit-background-size', 'cover')
+    $('body').css('-moz-background-size', 'cover')
+    $('body').css('-o-background-size', 'cover')
+  </script>
+</body>
+</html>
