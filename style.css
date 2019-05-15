@@ -25,6 +25,11 @@ a {
   text-decoration: none;
   color: black;
 }
+
+#avenify:hover {
+  color: rgb(39,70,223);
+  background-color: rgb(39,70,223, .3);
+}
 #tally:hover {
   color: rgb(129,127,250);
   background-color: rgb(129,127,250, .3);
