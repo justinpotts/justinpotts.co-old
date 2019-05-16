@@ -25,7 +25,9 @@ a {
   text-decoration: none;
   color: black;
 }
-
+a:first-child {
+  margin-left: -2.5px;
+}
 #avenify:hover {
   color: rgb(39,70,223);
   background-color: rgb(39,70,223, .3);
