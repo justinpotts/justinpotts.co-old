@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display:700&display=swap" rel="stylesheet">
+    <title>{{ site.title }}</title>
+    <style>
+      {% include style.css %}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="headers">
+        <p class="back-link" href="/"><a href="/">justinpotts.co</a> / {{ page.title }}</p>
+        <h1 class="header">{{ page.title }}</h1>
+        <p class="subheader">{{ page.subtitle }}</p>
+      </div>
+      <hr />
+      <div class="post-container">
+         {{content}}
+      </div>
+      <hr />
+      <div class="footer">
+        <p>Written by <a href="#">Justin Potts</a> on {{ page.current-date }}</p>
+      </div>
+    </div>
+  </body>
+</html>
